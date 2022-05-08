@@ -1,0 +1,46 @@
+body {
+    padding: 7%;
+    box-sizing: border-box;
+
+}
+
+#nav {
+    background-image: url(../components/img/1006592281-huge.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 10%;
+    padding: 1%;
+    height: 65vh;
+}
+
+.menu-nav {
+    background-color: red;
+    list-style: none;
+    padding: 1% 0 0 0;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+}
+
+.menu-nav li {
+    background-color: blue;
+    margin: 1%;
+    display: flex;
+}
+
+.menu-nav li a {
+    display: inline-block;
+    background-color: yellow;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.sobre {
+    background-color: blue;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 3% 5%;
+}
